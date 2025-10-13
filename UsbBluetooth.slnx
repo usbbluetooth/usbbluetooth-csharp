@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/Examples/">
+    <Project Path="Examples/ListControllers/ListControllers.csproj" />
+    <Project Path="Examples/ResetControllers/ResetControllers.csproj" />
+  </Folder>
+  <Project Path="UsbBluetooth/UsbBluetooth.csproj" />
+</Solution>
