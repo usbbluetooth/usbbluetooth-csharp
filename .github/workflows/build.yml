@@ -5,7 +5,7 @@ permissions:
 
 jobs:
   build:
-    name: Build package on ${{ matrix.python-version }}
+    name: Build package on ${{ matrix.dotnet-version }}
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up .NET ${{ matrix.dotnet-version }}
         uses: actions/setup-dotnet@v5
         with:
-          python-version: ${{ matrix.dotnet-version }}
+          dotnet-version: ${{ matrix.dotnet-version }}
 
       - name: Build
         run: dotnet build UsbBluetooth
