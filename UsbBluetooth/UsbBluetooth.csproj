@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="LibUsbDotNet" Version="3.0.167-alpha" />
+    <PackageReference Include="GitVersion.MsBuild" Version="6.4.0" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>
