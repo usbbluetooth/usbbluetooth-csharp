@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path=".github/dependabot.yml" />
+    <File Path=".github/workflows/build.yml" />
+    <File Path=".gitignore" />
+    <File Path="README.md" />
+  </Folder>
   <Folder Name="/Examples/">
     <Project Path="Examples/ListControllers/ListControllers.csproj" />
     <Project Path="Examples/ResetControllers/ResetControllers.csproj" />
