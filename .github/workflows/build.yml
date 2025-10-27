@@ -32,7 +32,7 @@ jobs:
         run: dotnet pack UsbBluetooth -o dist
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: usbbluetooth_csharp_${{ matrix.dotnet-version }}
           path: dist/
