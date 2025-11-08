@@ -29,7 +29,7 @@ namespace UsbBluetooth.LibUsbHelpers
         {
             if (bytes == null)
                 return 0;
-            UsbSetupPacket usbSetupPacket = new UsbSetupPacket((byte)(UsbCtrlFlags.Direction_Out | UsbCtrlFlags.RequestType_Class | UsbCtrlFlags.Recipient_Interface), 0, 0, interfaceInfo.Number, bytes.Length);
+            UsbSetupPacket usbSetupPacket = new UsbSetupPacket((byte)(UsbCtrlFlags.Direction_Out | UsbCtrlFlags.RequestType_Class | UsbCtrlFlags.Recipient_Device), 0, 0, interfaceInfo.Number, bytes.Length);
             return dev.ControlTransfer(usbSetupPacket, bytes, 0, bytes.Length);
         }
 
