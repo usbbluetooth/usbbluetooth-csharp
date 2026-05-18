@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="LibUsbDotNet" Version="3.0.167-alpha" />
+    <PackageReference Include="LibUsbDotNet" Version="3.0.224" />
     <PackageReference Include="GitVersion.MsBuild" Version="6.7.0" PrivateAssets="all" />
   </ItemGroup>
 
