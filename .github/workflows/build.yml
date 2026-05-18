@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        dotnet-version: ["8.0.x", "9.0.x"]
+        dotnet-version: ["8.0.x", "9.0.x", "10.0.x"]
 
     steps:
       - name: Checkout repository
@@ -51,7 +51,7 @@ jobs:
     - name: Download artifacts
       uses: actions/download-artifact@v8
       with:
-        name: usbbluetooth_csharp_9.0.x
+        name: usbbluetooth_csharp_10.0.x
         path: dist/
 
     - name: NuGet login
