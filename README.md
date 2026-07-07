@@ -2,6 +2,7 @@
 
 [![Build](https://github.com/usbbluetooth/usbbluetooth-csharp/actions/workflows/build.yml/badge.svg)](https://github.com/usbbluetooth/usbbluetooth-csharp/actions/workflows/build.yml)
 [![NuGet](https://img.shields.io/nuget/v/UsbBluetooth)](https://www.nuget.org/packages/UsbBluetooth/)
+[![Snyk package health](https://img.shields.io/badge/Snyk-package%20health-4C4A73?logo=snyk&logoColor=white)](https://security.snyk.io/package/nuget/UsbBluetooth)
 
 Take full control of your USB Bluetooth controllers from C#!
 
