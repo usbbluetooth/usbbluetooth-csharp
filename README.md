@@ -1,6 +1,7 @@
 # USB Bluetooth
 
 [![Build](https://github.com/usbbluetooth/usbbluetooth-csharp/actions/workflows/build.yml/badge.svg)](https://github.com/usbbluetooth/usbbluetooth-csharp/actions/workflows/build.yml)
+[![CodeQL](https://github.com/usbbluetooth/usbbluetooth-csharp/actions/workflows/codeql.yml/badge.svg)](https://github.com/usbbluetooth/usbbluetooth-csharp/actions/workflows/codeql.yml)
 [![NuGet](https://img.shields.io/nuget/v/UsbBluetooth)](https://www.nuget.org/packages/UsbBluetooth/)
 [![Snyk package health](https://img.shields.io/badge/Snyk-package%20health-4C4A73?logo=snyk&logoColor=white)](https://security.snyk.io/package/nuget/UsbBluetooth)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/usbbluetooth/usbbluetooth-csharp/badge)](https://scorecard.dev/viewer/?uri=github.com/usbbluetooth/usbbluetooth-csharp)
