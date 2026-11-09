@@ -4,8 +4,19 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      github-actions:
+        patterns:
+          - "*"
 
   - package-ecosystem: "nuget"
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      nuget:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
